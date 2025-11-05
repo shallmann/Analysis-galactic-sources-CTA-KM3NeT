@@ -5,9 +5,7 @@
 
 This repository contains the prospects for combined analyses of hadronic emission from γ-ray sources in the Milky Way with CTA and KM3NeT/ARCA. It complements the publication "Prospects for combined analyses of hadronic emission from γ-ray sources in the Milky Way with CTA and KM3NeT" ([arxiv:2309.03007](https://arxiv.org/abs/2309.03007)), and for in-depth description of the analysis please refer to the paper.
 The aim of this analysis is to simulate how well a combined analysis of CTA and KM3NeT data can differentiate between hadronic and leptonic emission scenarios of galactic gamma-ray sources. The focus is on the comparison of the combined analysis to the separate analysis of the two instruments within [Gammapy](https://docs.gammapy.org/0.17/index.html).
-This content is only compatible with `gammapy v0.17`, later versions are not supported.  
-It should be noted, that `gammapy v0.17` is not compatible with the M1 CPU. The only option to run this analysis with this CPU is to use a docker image.
-This option will be provided in the next version of the repository.
+This content compatible with `gammapy v2.0`. 
 
 ## Content
 
@@ -44,13 +42,13 @@ conda activate km3net_cta_env
 #### Using venv
 
 It requires to build a dedicated environment.
-Build environment using `pip`, first it requires to install manually `python3.8`, then install `virtualenv`:
+Build environment using `pip`, first it requires to install manually `python3.12`, then install `virtualenv`:
 ```sh
 pip install virtualenv
-# for standard preinstalled python 3.8
-virtualenv venv --python=python3.8
+# for standard preinstalled python 3.12
+virtualenv venv --python=python3.12
 # or specify path
-virtualenv venv --python=/path/to/python3.8
+virtualenv venv --python=/path/to/python3.12
 ```
 acitvate `venv`:
 ```sh
