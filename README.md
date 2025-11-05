@@ -29,7 +29,7 @@ git clone https://github.com/KM3NeT/Analysis-galactic-sources-CTA-KM3NeT.git
 ```
 then
 ```sh
-cd cta-and-km3net/
+cd Analysis-galactic-sources-CTA-KM3NeT/
 ```
 
 ### Creating the environment
