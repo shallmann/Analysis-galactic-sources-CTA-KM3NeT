@@ -1,6 +1,6 @@
 # Reproducing the analysis
 
-The aim of this analysis is to simulate how well a combined analysis of CTA and KM3NeT data can differentiate between hadronic and leptonic emission scenarios of galactic gamma-ray sources. The focus is on the comparison of the combined analysis to the separate analysis of the two instruments within [Gammapy](https://docs.gammapy.org/0.17/index.html).
+The aim of this analysis is to simulate how well a combined analysis of CTA and KM3NeT data can differentiate between hadronic and leptonic emission scenarios of galactic gamma-ray sources. The focus is on the comparison of the combined analysis to the separate analysis of the two instruments within [Gammapy](https://docs.gammapy.org/2.0/index.html).
 
 ## Execution of the notebooks
 
