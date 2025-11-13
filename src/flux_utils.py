@@ -16,7 +16,7 @@ par_dir = current_dir.parent
 # parpar_dir = par_dir.parent
 sys.path.append(str(par_dir))
 
-from .configure_analysis import AnalysisConfig
+from configure_analysis import AnalysisConfig
 
 analysisconfig = AnalysisConfig()
 
